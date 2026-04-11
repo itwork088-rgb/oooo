@@ -1,0 +1,41 @@
+# country = {"house":"дом","car":"машина","tree":"дерево","road":
+#     "дорога"}
+
+# print(country["car"])
+
+# country = dict(code="ru", name="Russian", population="144")
+# # print(country["name"])
+# for key, value in country.items():
+#     print(key,"-",value)
+# country.clear()
+# print(country)
+
+
+# person = {
+#     "first.name":" john",
+#     "age":45,
+#     "city":"Г.Атырау",
+#     "grades":100,
+#     "address":["Улица пушкина","там станция 23"]
+#     }
+# person2 = {
+#     "halo.name":"Lol"
+# }
+    
+
+# print(person["address"])
+
+
+dictionary = {
+    "house": "дом",
+    "car": "машина",
+    "tree": "дерево",
+    "road": "дорога",
+    "cat": "кот"
+}
+
+print(dictionary["cat"])
+print(dictionary["house"])
+
+dictionary["dog"] = "собака"
+print(dictionary)
